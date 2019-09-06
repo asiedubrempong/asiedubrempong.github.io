@@ -8628,3 +8628,33 @@ textarea.form-control {
     padding-top: 180px;
   }
 }
+
+/* .opaci{
+  opacity: 0.1;
+} */
+
+.opaci {
+  position: relative;
+  
+  overflow: hidden;
+}
+
+.opaci:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.1;
+  background-image: url(../images/bg_1.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
