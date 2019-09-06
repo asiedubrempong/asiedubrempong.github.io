@@ -8622,7 +8622,7 @@ textarea.form-control {
   padding-top: 1rem;
 }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 450px) {
   .push {
     height: 1000px!important;
     padding-top: 200px;
