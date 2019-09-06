@@ -8621,3 +8621,10 @@ textarea.form-control {
 .slt {
   padding-top: 1rem;
 }
+
+@media only screen and (max-width: 420px) {
+  .push {
+    height: 1000px!important;
+    padding-top: 150px;
+  }
+}
