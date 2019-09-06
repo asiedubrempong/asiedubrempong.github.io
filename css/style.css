@@ -8648,7 +8648,7 @@ textarea.form-control {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 0.1;
+  opacity: 0.2;
   background-image: url(../images/bg_1.jpg);
   background-repeat: no-repeat;
   background-position: 50% 0;
