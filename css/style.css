@@ -8625,17 +8625,13 @@ textarea.form-control {
 @media only screen and (max-width: 450px) {
   .push {
     height: 1000px!important;
-    padding-top: 250px;
+    padding-top: 330px;
   }
 }
 
-/* .opaci{
-  opacity: 0.1;
-} */
 
 .opaci {
-  position: relative;
-  
+  position: relative;  
   overflow: hidden;
 }
 
@@ -8657,4 +8653,14 @@ textarea.form-control {
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
